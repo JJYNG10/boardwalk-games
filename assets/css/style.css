@@ -70,6 +70,42 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* New games & fav games */
+.new-games .card{border: transparent;}
+
+.fav-games .card{border: transparent;}
+
+/* Footer */
+#contact {background-color: var(--primary-color);
+    color: white;
+    padding-bottom: 3rem;
+}
+
+#contact h2 {color: white;}
+
+#contact .sub-heading-color {color: var(--highlight-color-light);}
+
+/* Icons */
+#contact i {
+    color: var(--secondary-color);
+    font-size: 1.3rem;
+    margin-right: 15px;
+}
+
+#contact .social-links i {
+   color: var(--highlight-color-light);
+   font-size: 1.9rem;
+   transition: color 0.3s ease-in-out;}
+
+#contact .social-links i:hover {
+   color: var(--secondary-color);}
+
+/* table */
+#contact .table-dark * {background-color: transparent;}
+
+
+
+
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { #services .card-body {min-height:191px} }
 
