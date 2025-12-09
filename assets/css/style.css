@@ -42,8 +42,33 @@ h2 {
     margin-bottom: 2rem;
 }
 
-/* Navbar */
+/* button with infill*/
+.custom-botton-filled {
+    border: 2px solid var(--highlight-color);
+    background-color:var(--highlight-color) ;
+    color: white;
+}
 
+.custom-botton-filled:hover {
+    border: 2px solid var(--secondary-color);
+    background-color:var(--secondary-color) ;
+    color: white;
+}
+
+/* button without outline*/
+.custom-botton-outline {
+    border: 3px solid var(--highlight-color);
+    padding: 7px 25px;
+    background-color:transparent;
+    color: var(--highlight-color);
+}
+
+.custom-botton-outline:hover {
+    background-color:var(--highlight-color);
+    color:white;
+}
+
+/* Navbar */
 #navbar {
     background-color: var(--primary-color);
 }
