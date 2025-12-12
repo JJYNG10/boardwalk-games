@@ -68,6 +68,7 @@ h2 {
     color:white;
 }
 
+
 /* Navbar */
 #navbar {
     background-color: var(--primary-color);
@@ -84,7 +85,6 @@ h2 {
 }
 
 /* Services */
-
 #services .card-footer {
     font-weight: bold;
     color: var(--highlight-color);
@@ -95,10 +95,42 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Events */
+
+#events .table {
+    /* events table font size small enough that 
+      the table doesn't overflow on xs screens. 
+      Size set back to 1rem in a media query 
+      for sm screens and up */
+    font-size: 0.7rem;
+}
+
+/* student discount text with infill*/
+.text-filled {
+    background-color:var(--highlight-color) ;
+    font-weight: bold;
+    color: white;
+    display: block;
+    max-width: 300px;
+    margin: auto;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    margin-bottom: 2rem;}
+
 /* New games & fav games */
 .new-games .card{border: transparent;}
 
 .fav-games .card{border: transparent;}
+
+/* reserve form */
+/*#reserve-form {margin: auto;}
+
+#reserve-form div { margin-top: 15px;}
+
+#reserve-button {
+margin-top: 30px;
+margin-bottom: 30px;}*/
+
 
 /* Footer */
 #contact {background-color: var(--primary-color);
@@ -132,16 +164,35 @@ h2 {
 
 
 /*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { #services .card-body {min-height:191px} }
+@media (min-width: 768px) { #services .card-body {min-height:191px} 
+#reserve-game-form form {    
+    padding-left: 50px;
+    padding-right: 50px;
+}
+}
 
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) { #services .card-body {min-height:auto} }
+@media (min-width: 992px) { #services .card-body {min-height:auto} 
+#reserve-game-form form {    
+    padding-left: 70px;
+    padding-right: 70px;
+}
+}
 
 /* X-Large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { #services .card-body {min-height:220px} }
+@media (min-width: 1200px) { #services .card-body {min-height:220px}
+#reserve-game-form form {    
+    padding-left: 80px;
+    padding-right: 80px;
+}
+}
 
 /* XX-Large devices (larger desktops, 1400px and up)*/
-@media (min-width: 1400px) { #services .card-body {min-height:195px} }
+@media (min-width: 1400px) { #services .card-body {min-height:195px}
+#reserve-game-form form {    
+    padding-left: 90px;
+    padding-right: 90px;
+}}
 
 /* grid visualisation CSS for testing */
 
